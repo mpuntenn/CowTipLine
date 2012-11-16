@@ -1,4 +1,4 @@
-Parse.initialize("oe3dboiG0RzJNULxKvdHYGWEb3Cq7mzHRC3Dwh6E", "cR8whmMjybMoXUqfAzhxUJSiBXw3QPt7ZB4bRGw8");
+Parse.initialize("nrQr0QMxejxmvJHsaezCqouVun1y6FkFIG1RIKhR", "WmFcVxwk3fdfIwVju7djbENV55rkpnn7QOmBlPpi");
 TipObject = Parse.Object.extend("TipObject");
 
 var currentLocation;
