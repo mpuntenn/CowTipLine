@@ -11,10 +11,10 @@ $(document).ready(function() {
 		navigator.geolocation.getCurrentPosition(function(pos) {
 			//store the long/lat
 			currentLocation = {longitude:pos.coords.longitude, latitude:pos.coords.latitude};
-			$("#addTipBtn").removeAttr("disabled");
-		}, function(err) {
+			$("#addTipBtn");//.removeAttr("disabled");
+		}//, function(err) {
 			//Since geolocation failed, we can't allow the user to submit
-			doAlert("Sorry, but we couldn't find your location.\nYou may not post a cow tip.");
+		//	doAlert("Sorry, but we couldn't find your location.\nYou may not post a cow tip.");
 		});
 
     }
